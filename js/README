@@ -1,9 +1,9 @@
-Папка для скриптов.
+Catalog for scrits.
 
 --
 
-Пример структуры файлов:
+Example of files structure:
 
 js/
 | - script.js
-| - [другие *.js файлы]
+| - [other *.js files]

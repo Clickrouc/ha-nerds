@@ -1,10 +1,10 @@
-Папка для стилевых файлов.
+Catalog for style files.
 
 --
 
-Пример структуры файлов:
+Example of files structure:
 
 css/
 | - style.css
 | - normalize.css
-| - [другие *.css файлы]
+| - [other *.css files]
