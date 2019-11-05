@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nёrds design studio</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a></a></ad><img src="img/logo.svg" width="160" height="65" alt="Логотип компании Нёрдс"></a>
+      <nav class="main-navigation">
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item"><a>Студия</a></li>
+          <li class="main-navigation__item"><a href="#">Клиенты</a></li>
+          <li class="main-navigation__item"><a href="catalog.html">Магазин</a></li>
+          <li class="main-navigation__item"><a href="#">Контакты</a></li>
+        </ul>
+        <button class="main-navigation__cart">Корзина</button>
+      </nav>
+    </header>
+    <main class="main-container">
+      <h1 class="main-title">Магазин готовых шаблонов</h1>
+      <section class="filter">
+        <h2 class="visually-hidden">Фильтр</h2>
+        <form class="filter__form" action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="filter-fieldset">
+            <legend class="filter-fieldset__legend">Стоимость</legend>
+            <input class="filter-range__filter" id="filter-range" type="range" value="0" min="0" max="20000" step="1000">
+            <input class="filter-range__filter" id="filter-range-2" type="range" value="15000" min="0" max="20000" step="1000">
+            <label class="filter-range-textbox__label" for="filter-range-textbox-from">От</label>
+            <input class="filter-range-textbox__input" type="text" name="filter-range-textbox-from" id="filter-range-textbox-from">
+            <label class="filter-range-textbox__label" for="filter-range-textbox-to">До</label>
+            <input class="filter-range-textbox__input" type="text" name="filter-range-textbox-to" id="filter-range-textbox-to">
+          </fieldset>
+          <fieldset class="filter-fieldset">
+            <legend class="filter-fieldset__legend">Сетка:</legend>
+            <ul class="filter-grid">
+              <li class="filter-grid__item">
+                <input class="filter-grid__option" type="radio" name="filter-grid" value="adptive" id="filter-grid-adaptive" checked>
+                <label class="filter-grid__label" for="filter-grid-adaptive">Адаптивная</label>
+              </li>
+              <li class="filter-grid__item">
+                <input class="filter-grid__option" type="radio" name="filter-grid" value="fix" id="filter-grid-fix">
+                <label class="filter-grid__label" for="filter-grid-fix">Фиксированная</label>
+              </li>
+              <li class="filter-grid__item">
+                <input class="filter-grid__option" type="radio" name="filter-grid" value="rubber" id="filter-grid-rubber">
+                <label class="filter-grid__label" for="filter-grid-rubber">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-fieldset">
+            <legend class="filter-fieldset__legend">Особенности:</legend>
+            <ul class="filter-features">
+              <li class="filter-features__item">
+                <input class="filter-features__checkbox" name="filter-features" id="filter-features-slider" value="slider" type="checkbox" checked>
+                <label class="filter-features__label" for="filter-features-slider">Слайдер</label>
+              </li>
+              <li class="filter-features__item">
+                <input class="filter-features__checkbox" name="filter-features" id="filter-features-features" value="features" type="checkbox">
+                <label class="filter-features__label" for="filter-features-features">Блок преимуществ</label>
+              </li>
+              <li class="filter-features__item">
+                <input class="filter-features__checkbox" name="filter-features" id="filter-features-news" value="news" type="checkbox" checked>
+                <label class="filter-features__label" for="filter-features-news">Новости</label>
+              </li>
+              <li class="filter-features__item">
+                <input class="filter-features__checkbox" name="filter-features" id="filter-features-gallery" value="gallery" type="checkbox">
+                <label class="filter-features__label" for="filter-features-gallery">Галерея</label>
+              </li>
+              <li class="filter-features__item">
+                <input class="filter-features__checkbox" name="filter-features" id="filter-features-cart" value="cart" type="checkbox">
+                <label class="filter-features__label" for="filter-features-cart">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="filter__submit" type="submit">Показать</button>
+        </form>
+      </section>
+      <section class="sorting">
+        <h2 class="sorting__title">Сортировать:</h2>
+        <button class="sorting__button--disabled" disabled>По цене</button>
+        <button class="sorting__button">По цене</button>
+        <button class="sorting__button">По названию</button>
+        <button class="sorting__button--down--disabled" disabled>По убыванию</button>
+        <button class="sorting__button--up">По возрастанию</button>
+      </section>
+      <section class="catalog">
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <h3>Sedona</h3>
+            <p>Информационный сайт для туристов</p>
+            <a class="catalog-item__button" href="#">9900 руб.</a>
+          </li>
+          <li class="catalog__item">
+            <h3>Pink App</h3>
+            <p>Продуктовый лендинг приложения для iOS и Android</p>
+            <a class="catalog-item__button" href="#">9900 руб.</a>
+          </li>
+          <li class="catalog__item">
+            <h3>Barbershop</h3>
+            <p>Сайт салоны красоты. Для мужчин, да.</p>
+            <a class="catalog-item__button" href="#">9900 руб.</a>
+          </li>
+          <li class="catalog-item">
+            <h3>Mishka</h3>
+            <p>Интернет-магазин вязаных игрушек</p>
+            <a class="catalog-item__button" href="#">9900 руб.</a>
+          </li>
+          <li class="catalog-item">
+            <h3>A Plus</h3>
+            <p>Лендинг курсов повышения квалификации</p>
+            <a class="catalog-item__button" href="#">9900 руб.</a>
+          </li>
+          <li class="catalog-item">
+            <h3>Кваст</h3>
+            <p>Промо-сайт производителя крафтового кваса</p>
+            <a class="catalog-item__button" href="#">9900 руб.</a>
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination__item--current"><a>1</a></li>
+          <li class="pagination__item"><a href="#">2</a></li>
+          <li class="pagination__item"><a href="#">3</a></li>
+          <li class="pagination__item--next"><a href="#">Следующая</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="main-footer__map">
+        <h2 class="visually-hidd">Как нас найти?</h2>
+        <div class="map__address">
+          <b>Nёrds design studio</b>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <button class="map__button">Напишите нам</button>
+        </div>
+      </section>
+      <section class="feedback">
+        <h2 class="feedback__headline">Напишите нам</h2>
+        <form class="feedback__form" action="https://echo.htmlacademy.ru" method="post">
+          <label class="feedback-form__label" for="feedback-name">Ваше имя:</label>
+          <input type="text" id="feedback-name" name="feedback-name" value="" placeholder="Имя Фамилия">
+          <label class="feedback-form__label" for="feedback-email">Ваш e-mail:</label>
+          <input type="text" id="feedback-email" name="feedback-email" value="" placeholder="email@example.com">
+          <label class="feedback-form__label" for="feedback-message">Текст письма:</label>
+          <textarea id="feedback-message" name="feedback-message" value="" placeholder="В свободной форме"></textarea>
+          <button class="feedback-form__button" type="submit">Отправить</button>
+        </form>
+      </section>
+      <section class="social">
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="social__list">
+          <li class="social-list__item"><a class="social-item__button" href="#">VK</a></li>
+          <li class="social-list__item"><a class="social-item__button" href="#">Facebook</a></li>
+          <li class="social-list__item"><a class="social-item__button" href="#">Instagram</a></li>
+        </ul>
+        <b class="social__call">Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </section>
+    </footer>
+  </body>
+</html>

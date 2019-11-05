@@ -1,9 +1,0 @@
-Catalog for scrits.
-
---
-
-Example of files structure:
-
-js/
-| - script.js
-| - [other *.js files]

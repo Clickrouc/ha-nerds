@@ -1,0 +1,23 @@
+{
+  "name": "glacy",
+  "version": "1.0.0",
+  "description": "Learning project. HTML Academy",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clickrouc/ha-glacy.git"
+  },
+  "author": "Clickrouc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clickrouc/ha-glacy/issues"
+  },
+  "homepage": "https://github.com/Clickrouc/ha-glacy#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "github:gulpjs/gulp"
+  }
+}
